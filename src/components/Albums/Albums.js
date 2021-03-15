@@ -52,7 +52,7 @@ const useStyles = makeStyles({
   },
 });
 
-const ViewTwo = () => {
+const Albums = () => {
 
     const classes = useStyles();
 
@@ -90,4 +90,4 @@ const ViewTwo = () => {
     )
 }
 
-export default ViewTwo;
+export default Albums;

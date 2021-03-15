@@ -10,7 +10,7 @@ const Resize = styled.img`
     margin: 0 auto;
 `;
 
-const View = () => {
+const Header = () => {
     return(
         <div>
             <Resize src={Disc} alt='vinyl record' />
@@ -18,4 +18,4 @@ const View = () => {
     )
 }
 
-export default View;
+export default Header;
