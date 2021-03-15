@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+
+import Navbar from './components/Navbar/Navbar';
+import Header from './components/Header';
+import Albums from './components/Albums/Albums';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Header />
+      <h1 className='shopTitle' style={{textAlign: 'center', marginTop: '-4em'}}>Shop Records</h1>
+      <Albums />
     </div>
   );
 }
